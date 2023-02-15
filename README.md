@@ -4,15 +4,15 @@
 
 ### How To Run
 ```
-git clone https://github.com/Potagashev/isis2.git
+git clone https://github.com/IlyaKuz26/ift2.git
 ```
 ```
-docker build -t isis2 .
+docker build . -t ift2_im
 ```
 ```
-docker run -ti -p 80:80 isis2
+docker run -d -p 3000:3000 --name ift2 ift2_im
 ```
 Перейти по ссылке
 ```
-localhost:80
+localhost:3000
 ```
